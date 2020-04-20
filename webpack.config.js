@@ -1,6 +1,8 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+
+
   devServer : {
     inline:true,
     port: 7777

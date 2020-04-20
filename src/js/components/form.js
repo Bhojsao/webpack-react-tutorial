@@ -29,6 +29,7 @@ class Form extends Component {
           value={this.state.value}
           onChange={this.handleChange}
         />
+        <p>{this.state.value} state</p>
       </form>
     );
   }
@@ -36,5 +37,4 @@ class Form extends Component {
 
 export default Form;
 
-const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<Form />, wrapper) : false;
+
