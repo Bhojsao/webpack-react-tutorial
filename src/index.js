@@ -9,5 +9,5 @@ import Mercury from "./jsx/components/mercury.jsx";
 
 //ReactDOM.render(<Form />, document.getElementById("container")); 
 
-ReactDOM.render(<Mercury />, document.getElementById("container")); 
+ReactDOM.render(<Mercury symbol={1}/>, document.getElementById("container")); 
 
